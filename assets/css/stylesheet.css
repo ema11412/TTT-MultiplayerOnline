@@ -32,7 +32,7 @@ h1 {
 
 .msgbox .msg-wrapper {
     background-color: #fff;
-    box-shadow: 0px 0px 40px 0px #b95ed7;
+    box-shadow: 0px 0px 40px 0px #5e66d7;
     border-radius: 5px;
     height: 210px;
     margin-bottom: 8px !important;
@@ -41,9 +41,9 @@ h1 {
 }
 
 .msgp {
-    border: 1px solid #b95ed7;
+    border: 1px solid #5ec5d7;
     padding: 3px 10px;
-    background-color: #c30efe80;
+    background-color: #0ea6fe80;
     display: inline;
     color: #fff;
     max-width: 150px;
@@ -134,7 +134,7 @@ h1 {
 }
 
 .msgf-wrapper {
-    box-shadow: 0px 0px 40px 0px #b95ed7;
+    box-shadow: 0px 0px 40px 0px #5ebbd7;
     border-radius: 5px;
     background-color: #fff;
     padding: 5px 7px 5px 15px !important;
@@ -193,12 +193,12 @@ h1 {
 }
 .border_f
 {
-	border-bottom: 10px solid #17406A;
-	width: 92%;
+	border-bottom: 8px solid #2545d8;
+	width: 81%;
 }
 .border_s
 {
-	border-right: 10px solid #17406A;
+	border-right: 8px solid #cf0d0d;
 }
 .winner {
 	color: green;

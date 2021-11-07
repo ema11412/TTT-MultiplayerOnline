@@ -17,7 +17,7 @@
 		localStorage.setItem('uid', '<%= uid %>')
 	</script>
 
-	<title>Tic Tac Toe Game</title>
+	<title>TTT MultiplayerOnline</title>
 </head>
 <body>
 	<div class="container rel">
@@ -60,18 +60,15 @@
 				<div class="msgf-wrapper input-field	">
 					<div class="emoji-wrapper hidden">
 						<div class="pre-msg">
-							<span>Play Fast</span>
-							<span>Hi</span>
-							<span>Oops!</span>
-							<span>Nice Move</span>
-							<span>Well Played</span>
+							<span>Juega rapido</span>
+							<span>Hola</span>
 						</div>
 						<span>😀</span><span>😃</span><span>😄</span><span>😁</span><span>😆</span><span>😅</span><span>😂</span><span>🤣</span><span>😊</span><span>😇</span><span>🙂</span><span>🙃</span><span>😉</span><span>😌</span><span>😍</span><span>🥰</span><span>😘</span><span>😗</span><span>😙</span><span>😚</span><span>😋</span><span>😛</span><span>😝</span><span>😜</span><span>🤪</span><span>🤨</span><span>🧐</span><span>🤓</span><span>😎</span><span>🤩</span><span>🥳</span><span>😏</span><span>😒</span><span>😞</span><span>😔</span><span>😟</span><span>😕</span><span>🙁</span><span>☹️</span>
 						<span>😣</span><span>😖</span><span>😫</span><span>😩</span><span>🥺</span><span>😢</span><span>😭</span><span>😤</span><span>😠</span><span>😡</span><span>🤬</span><span>🤯</span><span>😳</span><span>🥵</span><span>🥶</span><span>😱</span><span>😨</span><span>😰</span><span>😥</span><span>😓</span><span>🤗</span><span>🤔</span><span>🤭</span><span>🤫</span><span>🤥</span><span>😶</span><span>😐</span><span>😑</span><span>😬</span><span>🙄</span><span>😯</span><span>😦</span><span>😧</span><span>😮</span><span>😲</span><span>🥱</span><span>😴</span><span>🤤</span><span>😪</span><span>😵</span><span>🤐</span><span>🥴</span><span>🤢</span><span>🤮</span>
 						<span>🤧</span><span>😷</span><span>🤒</span><span>🤕</span><span>🤑</span><span>🤠</span><span>😈</span><span>👿</span><span>👹</span><span>👺</span><span>🤡</span><span>💩</span><span>👻</span><span>💀</span><span>☠️</span><span>👽</span><span>👾</span><span>🤖</span><span>🎃</span><span>😺</span><span>😸</span><span>😹</span><span>😻</span><span>😼</span><span>😽</span><span>🙀</span><span>😿</span><span>😾</span><span>👋</span><span>🤚</span><span>🖐</span><span>✋</span><span>🖖</span><span>👌</span><span>🤏</span><span>✌️</span><span>🤞</span><span>🤟</span><span>🤘</span><span>🤙</span><span>👈</span><span>👉</span><span>👆</span><span>👇</span>
 						<span>☝️</span><span>👍</span><span>👎</span><span>✊</span><span>👊</span><span>🤛</span><span>🤜</span><span>👏</span><span>🙌</span><span>👐</span><span>🤲</span><span>🤝</span><span>🙏</span><span>✍️</span><span>💅</span><span>🤳</span><span>💪</span><span>🦾</span><span>🦵</span><span>🦿</span><span>🦶</span>
 					</div>
-					<input placeholder="Enter your msg" autofocus="true" id="msg_f" type="text" class="validate">
+					<input placeholder="Mensaje" autofocus="true" id="msg_f" type="text" class="validate">
 					<a class="waves-effect waves-light emoji-sel"><i>☺️</i></a>
 					<a class="waves-effect waves-light send"><i class="material-icons left">send</i></a>
 				</div>
@@ -158,7 +155,7 @@
 
 		if (!leave && !submit) {
 			e.preventDefault();
-			leave = confirm("Are you sure you want to leave?")
+			leave = confirm("Seguro que deseas salir?")
 		}
 
 		console.log(leave)
